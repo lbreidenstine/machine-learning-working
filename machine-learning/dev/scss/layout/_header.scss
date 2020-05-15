@@ -1,0 +1,98 @@
+/* =============
+    Header
+============= */
+
+header {
+<<<<<<< HEAD
+    background-color: white;
+=======
+    background-color: $white;
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+
+    >div {
+        display: grid;
+        grid-template-columns: 20% auto;
+        grid-template-areas: "burger survival" "nav nav";
+
+        @include lg {
+            grid-template-columns: 20% auto;
+<<<<<<< HEAD
+            grid-template-areas: "nav survival;";
+=======
+            grid-template-areas: "nav survival";
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+        }
+
+        #logo-container {
+            grid-area: survival;
+            padding: 10px;
+            text-align: right;
+
+            a:link,
+            a:visited {
+<<<<<<< HEAD
+                background-color: yellow;
+                border-radius: 23px;
+                color: black;
+=======
+                background-color: $yellow;
+                border-radius: 23px;
+                color: $black;
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+                display: inline-block;
+                font-size: rem-calc(18);
+                font-weight: 700;
+                padding: 10px 20px;
+            }
+
+            a:hover,
+            a:active {
+                background-color: $black;
+                color: $white;
+            }
+        }
+
+        #burger-container {
+            //justify-content: flex-end;
+            align-items: center;
+            display: flex;
+            grid-area: burger;
+            padding: 10px;
+
+            @include lg {
+                display: none !important;
+            }
+<<<<<<< HEAD
+            
+=======
+
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+            i {
+                cursor: pointer;
+                font-size: rem-calc(30);
+            }
+        }
+
+        #nav-container {
+            background-color: $black;
+            display: none;
+            grid-area: nav;
+            padding: 10px;
+
+            @include lg {
+                background-color: $white;
+                display: block !important;
+            }
+        }
+<<<<<<< HEAD
+
+    }
+}
+=======
+    }
+}
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9

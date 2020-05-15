@@ -1,0 +1,62 @@
+/* =============
+    Navigation
+============= */
+
+#nav-container {
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+    ul {
+        height: 100%;
+
+        @include lg {
+            display: flex;
+        }
+
+        li {
+            margin-bottom: 20px;
+
+            @include lg {
+                align-items: center;
+                border-right: 2px solid $black;
+                display: flex;
+                margin-bottom: 0px;
+            }
+
+            a:link,
+            a:visited {
+                color: $white;
+                font-family: 'Roboto Slab', serif;
+<<<<<<< HEAD
+                padding: 0 20px; 
+=======
+                padding: 0 20px;
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+                text-decoration: none;
+
+                @include lg {
+                    color: $black;
+                }
+            }
+
+            a:hover,
+            a:active {
+                color: $yellow;
+            }
+        }
+
+        li:first-child {
+            border: none;
+        }
+
+        li:last-child {
+            border: none;
+<<<<<<< HEAD
+        }
+=======
+        } 
+>>>>>>> 031b9a4688bdf05a9a47a81be86ca32256cbddb9
+    }
+}
